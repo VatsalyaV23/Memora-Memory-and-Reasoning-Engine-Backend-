@@ -1,0 +1,30 @@
+﻿# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-dotenv==1.0.0
+
+# AI/ML
+google-generativeai==0.5.0
+
+# Databases
+chromadb==0.4.10
+psycopg2-binary==2.9.9
+neo4j==5.14.0
+
+# Data Validation
+pydantic==2.0.0
+
+# HTTP Client
+requests==2.31.0
+
+# Additional helpful packages
+httpx==0.25.0
+aiofiles==23.2.1
+
+# Optional - For meeting agent (audio)
+# pyaudio==0.2.13
+# SpeechRecognition==3.10.0
+# pydub==0.25.1
+
+# Optional but recommended
+numpy==1.24.3
